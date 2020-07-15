@@ -16,7 +16,7 @@ def prime?(num)
             result = false
             elsif num.even?
               result = false
-              else while (i*i)<= num 
+              else while (i*i)<= num
                 do
                   if num%i == 0 || num%(i+2) == 0
                   result = false
