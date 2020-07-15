@@ -17,6 +17,7 @@ def prime?(num)
             else while (i*i)<= num
               do
                if num%i == 0 || num%(i+2) == 0
+                binding.pry
                 result = false
                 i += 6
                 else
