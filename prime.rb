@@ -6,7 +6,11 @@ def prime?(num)
   #temp_result = false
   if num < 0
     result = false
+  elsif num == 1
+    result = false
   elsif num == 2
+    result = true
+  elsif num == 3
     result = true
   elsif num % 2 == 0
     result = false
