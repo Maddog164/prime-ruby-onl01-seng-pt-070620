@@ -14,14 +14,13 @@ def prime?(num)
           result = true
           elsif num % 2 == 0
             result = false
-            else while (i*i)<= num
-              do
-               if num%i == 0 || num%(i+2) == 0
-                binding.pry
-                result = false
-                i += 6
-                else
-                  result = true
+           else while (i*i)<= num do
+             if num%i == 0 || num%(i+2) == 0
+               binding.pry
+               result = false
+               i += 6
+               else
+                 result = true
                end #if
               end #do
   end #if
