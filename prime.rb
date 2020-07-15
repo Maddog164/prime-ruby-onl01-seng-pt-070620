@@ -14,17 +14,15 @@ def prime?(num)
           result = true
           elsif num % 2 == 0
             result = false
-            elsif num.even?
-              result = false
-              else while (i*i)<= num
-                do
-                  if num%i == 0 || num%(i+2) == 0
-                  result = false
-                  i += 6
-                  else
-                    result = true
-                  end
-                end
-    end
-    return result
+            else while (i*i)<= num
+              do
+               if num%i == 0 || num%(i+2) == 0
+                result = false
+                i += 6
+                else
+                  result = true
+               end #if
+              end #do
+  end #if
+  return result
 end
