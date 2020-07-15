@@ -3,7 +3,7 @@ require 'pry'
 def prime?(num)
   binding.pry
   i = 5
-  temp_result = false
+  #temp_result = false
   if num < 0
     result = false
   elsif num == 2
@@ -19,5 +19,6 @@ def prime?(num)
     else
       result = true
     end
+  end
   return result
 end
