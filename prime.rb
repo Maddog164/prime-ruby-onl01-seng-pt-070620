@@ -1,7 +1,7 @@
 require 'pry'
 
 def prime?(num)
-  binding.pry
+  #binding.pry
   i = 5
   #temp_result = false
   if num < 0
