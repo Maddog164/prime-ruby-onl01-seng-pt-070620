@@ -20,5 +20,6 @@ def prime?(num)
       result = true
     end
   end
+  end
   return result
 end
